@@ -9,12 +9,16 @@ const BannerSection = () => {
           className="max-w-sm rounded-lg shadow-2xl ml-15"
         />
         
-        <div className="">
+        <div>
+        
+        
           <p className="mb-6 w-100 bg-purple-100 text-purple-800 text-xl font-bold rounded-full p-2">
-            New: AI-Powered Tools Available
+                   New: AI-Powered Tools Available
           </p>
-          <p className="mb-4 text-5xl font-bold text-[#101727]">
-            Supercharge Your <br /> Digital Workflow
+          
+
+          <p className="mb-4 text-5xl font-bold [text-#101727]">
+            Supercharge Your <br/> Digital Workflow
           </p>
           <p className="mb-6">
             Access premium AI tools, design assets, templates, and productivity <br />

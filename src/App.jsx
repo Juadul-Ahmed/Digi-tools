@@ -1,4 +1,5 @@
 import BannerSection from "./Components/BannerSection"
+import Count from "./Components/Count"
 import NavBar from "./Components/NavBar"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
    <NavBar/>
    <BannerSection/>
+   <Count/>
     </>
   )
 }
