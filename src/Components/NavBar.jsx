@@ -2,8 +2,8 @@ import React from 'react';
 
 const NavBar = () => {
   return (
-    <div className='container mx-auto'>
-   <div className="navbar bg-base-100">
+    <div className='w-full bg-base-100 border-b border-gray-100'>
+   <div className="navbar container mx-auto px-4">
   <div className="navbar-start font-bold">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -26,7 +26,7 @@ const NavBar = () => {
         <li><a>FAQ</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-3xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">DigiTools</a>
+    <a className="text-xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-[#6333ff] to-[#9933ff] bg-clip-text text-transparent whitespace-nowrap">DigiTools</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 font-bold text-[#101727]">
@@ -47,9 +47,9 @@ const NavBar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className='mr-4' href="#"><img src="/shopping-cart.png" alt="" /></a>
-    <a className="btn mr-4 text-[#101727]">Login</a>
-    <a className="btn bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold rounded-full">Get Started</a>
+    <a className='p-2 hover:bg-gray-100 rounded-full transition-colors hidden sm:block' href="#"><img src="/shopping-cart.png" alt="" /></a>
+    <a className="btn btn-sm md:btn-md btn-ghost text-[#101727] px-2 sm:px-4">Login</a>
+    <a className="btn btn-sm md:btn-md bg-gradient-to-r from-[#6333ff] to-[#9933ff] hover:opacity-90 text-white font-bold rounded-full border-none px-3 sm:px-6">Get Started</a>
   </div>
 </div>
 </div>
