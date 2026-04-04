@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "AI Content Writer",
+    "description": "Generate high-quality blog posts and social media copy in seconds using GPT-4.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["SEO Optimization", "50+ Languages", "Plagiarism Checker"],
+    "icon": "✍️"
+  },
+  {
+    "id": 2,
+    "name": "UI Kit Pro",
+    "description": "A massive collection of Figma components for rapid app prototyping.",
+    "price": 99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["500+ Components", "Auto-Layout 4.0", "Free Updates"],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "Video Editor Cloud",
+    "description": "Professional-grade video editing directly in your browser with cloud rendering.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["4K Export", "Stock Library Access", "Multi-track Editing"],
+    "icon": "🎬"
+  },
+  {
+    "id": 4,
+    "name": "SEO Analyzer",
+    "description": "Deep dive into your website's performance and outrank your competitors.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Keyword Tracker", "Backlink Audit", "Daily Reports"],
+    "icon": "📈"
+  },
+  {
+    "id": 5,
+    "name": "E-book Toolkit",
+    "description": "Convert your manuscripts into beautiful PDF, EPUB, and Kindle formats easily.",
+    "price": 39,
+    "period": "one-time",
+    "tag": "Sale",
+    "tagType": "sale",
+    "features": ["10+ Layouts", "Automated TOC", "Cloud Sync"],
+    "icon": "📚"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Scheduler",
+    "description": "Plan, schedule, and automate your posts across all major social platforms.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Bestseller",
+    "tagType": "best seller",
+    "features": ["Auto-Rescheduling", "Bulk Upload", "Analytics Hub"],
+    "icon": "📱"
+  },
+  {
+    "id": 7,
+    "name": "AI Image Upscaler",
+    "description": "Increase image resolution up to 8x without losing any detail.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Bulk Processing", "API Access", "Denoise Tool"],
+    "icon": "🖼️"
+  },
+  {
+    "id": 8,
+    "name": "Newsletter Pro",
+    "description": "The ultimate platform for building and growing your email subscriber list.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Recommended",
+    "tagType": "popular",
+    "features": ["A/B Testing", "Advanced Segments", "Zero Config"],
+    "icon": "📧"
+  },
+  {
+    "id": 9,
+    "name": "Icons Library",
+    "description": "Over 5,000 vector icons in 10 different styles for any design project.",
+    "price": 59,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["SVG & PNG", "Component-Ready", "Commercial License"],
+    "icon": "✨"
+  },
+  {
+    "id": 10,
+    "name": "Dev Ops Dashboard",
+    "description": "Monitor all your server deployments and logs in a single unified view.",
+    "price": 399,
+    "period": "yearly",
+    "tag": "Pro Only",
+    "tagType": "new",
+    "features": ["Real-time Monitoring", "Slack Alerts", "Multi-Cloud Support"],
+    "icon": "💻"
+  },
+  {
+    "id": 11,
+    "name": "Legal Template Pack",
+    "description": "Ready-to-use contracts, privacy policies, and terms for freelancers.",
+    "price": 79,
+    "period": "one-time",
+    "tag": "Essential",
+    "tagType": "best seller",
+    "features": ["Vetted by Lawyers", "Customizable", "Google Doc Access"],
+    "icon": "⚖️"
+  },
+  {
+    "id": 12,
+    "name": "Code Snippet Manager",
+    "description": "Organize and sync all your useful code snippets across all your devices.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "Cheap",
+    "tagType": "sale",
+    "features": ["Syntax Highlighting", "Cloud Sync", "Collaboration Tool"],
+    "icon": "📂"
+  }
+]
