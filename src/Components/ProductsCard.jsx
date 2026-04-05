@@ -6,6 +6,11 @@ const ProductsCard = ({product,carts,setCarts}) => {
 
   const handleBuy = () => {
     setBuyNow(true)
+    const isFound = carts.find(item => item.id === product.id)
+    if(isFound){
+      toast.error("Item already added")
+      return
+    }
     setCarts([...carts, product])
     toast.success("Item added")
   }
