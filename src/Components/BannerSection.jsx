@@ -33,7 +33,7 @@ const BannerSection = () => {
             
             <a className="btn btn-md md:btn-lg btn-ghost rounded-full font-bold flex items-center gap-2 group">
                <img src="/Play.png" alt="Play" className="w-6 h-6" /> 
-               <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+               <span className={"bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"}>
                  Watch Demo
                </span>
             </a>
