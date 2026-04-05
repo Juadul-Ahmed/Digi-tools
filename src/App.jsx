@@ -63,7 +63,7 @@ const [carts,setCarts] = useState([])
       </div>
   {activeTab === "product" && <Products productPromise={productPromise} carts={carts} setCarts={setCarts} />}
 
-  {activeTab === "cart" && <Cart carts={carts} />}
+  {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts} />}
     </>
   )
 }
