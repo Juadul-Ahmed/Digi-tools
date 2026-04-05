@@ -5,6 +5,7 @@ import Count from "./Components/Count"
 import NavBar from "./Components/NavBar"
 import Products from "./Components/Products"
 import Starter from "./Components/Starter"
+import PricingSection from "./Components/PricingSection"
 
 
 const getProducts = async () => {
@@ -66,6 +67,7 @@ const [carts,setCarts] = useState([])
 
   {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts} />}
   <Starter/>
+  <PricingSection/>
     </>
   )
 }
