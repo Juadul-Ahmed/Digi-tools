@@ -7,6 +7,7 @@ import Products from "./Components/Products"
 import Starter from "./Components/Starter"
 import PricingSection from "./Components/PricingSection"
 import SubBanner from "./Components/SubBanner"
+import Footer from "./Components/Footer"
 
 
 const getProducts = async () => {
@@ -70,6 +71,7 @@ const [carts,setCarts] = useState([])
   <Starter/>
   <PricingSection/>
   <SubBanner/>
+  <Footer/>
     </>
   )
 }

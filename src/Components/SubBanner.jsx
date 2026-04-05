@@ -14,7 +14,7 @@ const SubBanner = () => {
         <button className='btn rounded-full  text-purple-500'>View Pricing</button>
       </div>
 
-      <p className='text-center mt-2'>14-day free trial • No credit card required • Cancel anytime</p>
+      <p className='p-4 text-center mt-2'>14-day free trial • No credit card required • Cancel anytime</p>
 
     </div>
   );
