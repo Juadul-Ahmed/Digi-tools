@@ -49,15 +49,15 @@ const [carts,setCarts] = useState([])
             type="radio"
             name="my_tabs_1"
             className="peer hidden"
-            aria-label="Cart"
+            aria-label= "Cart"
             onClick={()=> setActiveTab("cart")}
           />
           <div
-            className="px-8 py-2.5 rounded-full font-bold text-gray-500 transition-all 
-      peer-checked:bg-gradient-to-r peer-checked:from-[#6333ff] peer-checked:to-[#9933ff] 
-      peer-checked:text-white hover:text-[#6333ff]"
+           className="px-8 py-2.5 rounded-full font-bold text-gray-500 transition-all 
+  peer-checked:bg-gradient-to-r peer-checked:from-[#6333ff] peer-checked:to-[#9933ff] 
+  peer-checked:text-white hover:text-[#6333ff]"
           >
-            Cart
+            Cart {carts.length > 0 ? `(${carts.length})` : ""}
           </div>
         </label>
       </div>

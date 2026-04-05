@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { Check } from "lucide-react";
+import { toast } from 'react-toastify';
 const ProductsCard = ({product,carts,setCarts}) => {
   const [isBuyNow,setBuyNow] = useState(false)
 
   const handleBuy = () => {
     setBuyNow(true)
     setCarts([...carts, product])
+    toast.success("Item added")
   }
   return (
     <div className="relative w-full max-w-sm p-8 bg-white border border-gray-100 rounded-3xl shadow-sm hover:shadow-md transition-shadow">
